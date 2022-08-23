@@ -1,4 +1,4 @@
-const write = "Hello.. User..! "
+const write = "Hello.. User..!!"
 let index = 1;
 function writer(){
     document.body.innerText=write.slice(0,index);
