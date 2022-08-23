@@ -1,0 +1,43 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Poppins",sans-serif;
+    background-color: white;
+    margin: 0;
+    min-height: 70vh;
+    flex-direction: column;
+    text-align: center;
+    padding: 5rem;
+    transition: background 0.5s linear,color 0.5s linear;
+}
+
+body.dark{
+    background-color: rgb(72, 68, 68);
+    color: white;
+}
+label{
+    user-select: none;
+    background-color: rgb(72, 68, 68);
+    border-radius: 50%;
+    color: white;
+    padding: 10px;
+    display: inline;
+    width: 50%;
+    height: 50%;
+    cursor: pointer;
+    user-select: none;
+    transition: background 0.5s ease-in-out;
+}
+.tg_Container{
+    position: fixed;
+    top: 10px;
+    right:10px;
+}
+body.dark label{
+    background-color: white;
+    color: black;
+}
+input{
+    visibility: hidden;
+}
